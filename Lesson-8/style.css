@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+body {
+    font-size: 1.5em;
+}
+
+.table {
+    padding: 50px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table-title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img {
+    margin: 20px 0;
+    max-width: 100px;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dotted blue;
+}
