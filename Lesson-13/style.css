@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 30px;
+    background-color: #ca6d4f4d;
+    border-radius: 15px;
+}
+
+.title {
+    margin-left: 150px;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-input {
+    max-width: 350px;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.form-btn {
+    font-size: 15px;
+    padding: 11px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task-title {
+    margin-top: 10px;
+}
+
+.strike-text {
+    color: green;
+    font-size: 20px;
+}
