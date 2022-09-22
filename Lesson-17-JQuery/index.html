@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/films.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>StarWars</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img class="logo" src="images/header-logo.png" alt="header-logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="index.html">Films</a></li>
+                    <li><a class="nav-link" id="actors-link" href="actors.html">Actors</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input class="header-search" id="search" type="text" placeholder="Enter the film name">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <div class="films" id="films">
+            </div>
+            <div class="film-detail" id="film-detail"></div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    background-color: #000;
+}
+
+.info {
+    list-style-type: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info-item {
+    color: #fff;
+    font-size: 2em;
+}
+
+.info-item:hover {
+    color: orange;
+}

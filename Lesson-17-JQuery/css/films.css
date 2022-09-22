@@ -1,0 +1,32 @@
+/* .films {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: flex-start;
+} */
+
+.film-poster {
+    max-width: 295px;
+    height: 411px;
+}
+
+.film-description {
+    max-width: 295px;
+}
+
+.film-link {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.film-title {
+    letter-spacing: 5px;
+    max-width: 320px;
+    text-decoration: none;
+}
+
+.film-year {
+    font-size: 20px;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 30px;
+}

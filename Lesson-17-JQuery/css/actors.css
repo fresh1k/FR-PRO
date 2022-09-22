@@ -1,0 +1,25 @@
+.actors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.actor-poster {
+    max-width: 295px;
+    height: 411px;
+}
+
+.actor-description {
+    max-width: 295px;
+}
+
+.actor-link {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.actor-title {
+    letter-spacing: 5px;
+    max-width: 320px;
+    text-decoration: none;
+}

@@ -1,0 +1,73 @@
+:root {
+    --main-color: #ffd700;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "StarWars";
+    src: url("../fonts/SF\ Distant\ Galaxy.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    font-family: "StarWars";
+    color: var(--main-color);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+    color:var(--main-color);
+}
+
+.header-search {
+    width: 295px;
+    height: 45px;
+    padding: 12px 35px;
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    background-color: #000;
+    font-size: 15px;
+    font-family: "StarWars";
+    color: var(--main-color);
+
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
