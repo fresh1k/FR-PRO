@@ -9,7 +9,7 @@ function WeathersPage() {
     
     const navigate = useNavigate();
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=3d0172e89eb2b47ab53ec02181654ead`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=6fe433dbc5f912aa84ca60e3c3a57047`
 
     
     const searchLocation = (event) => {
